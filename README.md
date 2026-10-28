@@ -1,4 +1,8 @@
 # BikeButtons
 Its buttons to go on a bike they are made up of many comments some of which are an ESP32, a battery, a TP4056, and a custom PCB of four buttons. For questions on how these different parts connect and work together refer to the images asked below they are a great tool to understand better how my project works.
 <img src="https://github.com/CodingJamMan/BikeButtons/blob/main/Screenshot%202026-10-27%20211125.png?raw=true" alt="Screenshot 2026-10-27 211125.png"/><img width="663" height="542" alt="image" src="https://github.com/user-attachments/assets/a258d2d8-0c6c-49e0-9b37-51ca745ec934" />
-
+Schematic
+<img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=3e167a2d71&amp;attid=0.11&amp;permmsgid=msg-a:r-6726595218005026125&amp;th=1a1804fe35555c13&amp;view=fimg&amp;fur=ip&amp;permmsgid=msg-a:r-6726595218005026125&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ8s8r7z_roM6FjziKG4z4c17_QNayjIbh7nWONsNjPVJVyMtPfLZDPuZuJrWNq2bSl94tdHrsBrSEcryLa1RqoICiYGzLSm7gFlWsDhTWc__33_cce0vX1l2uo&amp;disp=emb&amp;realattid=ii_mvrhmydy10&amp;zw" alt="Screenshot 2026-10-27 202014.png"/><img width="438" height="427" alt="image" src="https://github.com/user-attachments/assets/d5ec6830-4add-4dca-8c16-3684b7bbbe39" />
+Wiring Diagram
+<img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=3e167a2d71&amp;attid=0.12&amp;permmsgid=msg-a:r-6726595218005026125&amp;th=1a1804fe35555c13&amp;view=fimg&amp;fur=ip&amp;permmsgid=msg-a:r-6726595218005026125&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ8WsKOUxxRUjHrk20ARB33tYEWbDTweNYZhBenmtH1PEQWL2iADYJd25_-4sxpK-xxtq3IddH-PKWbZX35BG15CqZcDKmYDLMPP_FSvwhD80bNnDyLmMDcjpv4&amp;disp=emb&amp;realattid=ii_mvrhmyg511&amp;zw" alt="Screenshot 2026-10-27 203743.png"/><img width="273" height="601" alt="image" src="https://github.com/user-attachments/assets/31a7eb68-819d-4cae-8da6-9794ff9631bd" />
+Firmware Flowchart
