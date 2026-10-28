@@ -1,0 +1,40 @@
+#include <BleKeybord.h>
+
+const int BTN1 = 2;
+const int BTN2 = 3;
+const int BTN3 = 4;
+const int BTN4 = 5;
+
+void setup() {
+  pinMode(BTN1,INPUT_PULLUP);
+  pinMode(BTN2,INPUT_PULLUP);
+  pinMode(BTN3,INPUT_PULLUP);
+  pinMode(BTN4,INPUT_PULLUP);
+
+  bleKeyboard.begin();
+}
+
+void loop() {
+
+  if  (bleKeyboard.isConnected()) {
+
+  if  (!digitalRead(BTN1)) {
+
+bleKeyboard.write(KEY_MEDIA_VOLUME_UP);
+    delay(200);
+  }
+
+  if  (!digitalRead(BTN2)) {
+
+  bleKeyboard.write(KEY_MEDIAN_NEXT_TRACK);
+    delay(200);
+  }
+
+  if  (!digitalRead(BTN4)) {
+  bleKeyoard.write(KEY_MEDIA_PLAY_PAUSE);
+    delay(200);
+    }
+  }
+
+  delay(10);
+}
